@@ -3,6 +3,10 @@
 <head>
   <title>Page Sandbox</title>
   <meta charset="utf-8">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+  <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <script src="https://unpkg.com/mdui@1.0.2/dist/js/mdui.min.js"></script>
   <link rel="stylesheet" href="https://unpkg.com/mdui@1.0.2/dist/css/mdui.min.css"/>
   <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
@@ -31,7 +35,9 @@
 </head>
 <body>
   <div class="box">
-    <input id="txtURL" type="text" value="www.google.com" autofocus>
+    <div class="input-group mb-3">
+      <input id="txtURL" type="text" value="www.google.com" autofocus>
+    </div>
   </div>
   <div class="box">
     <button id="btnGo">Go</button>
