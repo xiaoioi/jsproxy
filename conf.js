@@ -17,7 +17,19 @@ jsproxy_config({
       lines: {
         // 主机:权重
         'gt.xiqo.eu.org': 1,
+      }
+    },
+    'demo-sg': {
+      label: '',
+      lines: {
+        '': 1,
       },
+    },
+    'mysite': {
+      label: '',
+      lines: {
+        [location.host]: 1,
+      }
     },
     // 该节点用于加载大体积的静态资源
     'cfworker': {
@@ -40,7 +52,7 @@ jsproxy_config({
   /**
    * 默认节点
    */
-  node_default: 'mysite',
+  node_default: 'demo-hk',
   // node_default: /jsproxy-demo\.\w+$/.test(location.host) ? 'demo-hk' : 'mysite',
 
   /**
