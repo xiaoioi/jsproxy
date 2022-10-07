@@ -18,8 +18,7 @@ jsproxy_config({
         // 主机:权重
         'gt.xiqo.eu.org': 1,
       }
-    },
-   }
+    }
     // 该节点用于加载大体积的静态资源
     'cfworker': {
       label: '',
