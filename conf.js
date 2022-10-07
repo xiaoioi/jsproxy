@@ -19,6 +19,7 @@ jsproxy_config({
         'gt.xiqo.eu.org': 1,
       }
     },
+   },
     // 该节点用于加载大体积的静态资源
     'cfworker': {
       label: '',
