@@ -13,11 +13,10 @@ jsproxy_config({
   // 节点配置
   node_map: {
     'demo-hk': {
-      label: '演示服务-香港节点',
+      label: '1号',
       lines: {
         // 主机:权重
-        'node-aliyun-hk-1.etherdream.com:8443': 1,
-        'node-aliyun-hk-2.etherdream.com:8443': 2,
+        'gt.xiqo.eu.org': 1,
       }
     },
     'demo-sg': {
