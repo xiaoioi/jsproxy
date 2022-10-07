@@ -13,16 +13,16 @@ jsproxy_config({
   // 节点配置
   node_map: {
     'demo-hk': {
-      label: '1号',
+      label: '1号加速',
       lines: {
         // 主机:权重
         'gt.xiqo.eu.org': 1,
       }
     },
     'demo-sg': {
-      label: '',
+      label: '2号加速',
       lines: {
-        '': 1,
+        'asst.晓短.cf': 1,
       },
     },
     'mysite': {
